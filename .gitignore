@@ -1,6 +1,20 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
+.project
+.classpath
+.settings/
+bin/
+gen/
+
+# git
+*.orig
+
+# vim
+*.sw*
+*~
+
+build/
+.gradle/
+.apt_generated/
+*.iml
+
+local.properties
+.idea/
