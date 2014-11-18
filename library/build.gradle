@@ -19,4 +19,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.+'
 }
 
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+//apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: 'https://raw.github.com/yongjhih/gradle-mvn-push/master/gradle-mvn-push-bintray.gradle'
