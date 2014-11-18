@@ -8,8 +8,8 @@ android {
         applicationId "com.cgollner.unclouded.preferences"
         minSdkVersion 7
         targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        versionCode = Integer.parseInt(VERSION_CODE)
+        versionName = VERSION_NAME
     }
 }
 
@@ -18,3 +18,5 @@ dependencies {
     compile 'com.android.support:support-v4:21.+'
     compile 'com.android.support:appcompat-v7:21.+'
 }
+
+apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
