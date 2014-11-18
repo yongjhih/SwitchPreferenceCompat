@@ -3,6 +3,8 @@ SwitchPreferenceCompat
 
 Allow easy to use [SwitchCompat](https://developer.android.com/reference/android/support/v7/widget/SwitchCompat.html) as preference.
 
+![SwitchPreferenceCompat](app/Screenshot.png "SwitchPreferenceCompat")
+
 Usage
 =====
 
