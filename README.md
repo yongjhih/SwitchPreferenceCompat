@@ -33,11 +33,27 @@ to
 Installation
 ============
 
-```
+build.gradle:
+
+```gradle
 dependencies {
     compile 'com.infstory:switch-preference-compat:1.0.+'
 }
 ```
+
+Requirement
+===========
+
+* Theme.AppCompat
+
+build.gradle:
+
+```gradle
+dependencies {
+    compile 'com.android.support:appcompat-v7:21.+'
+}
+```
+
 Credit
 ======
 
