@@ -1,6 +1,11 @@
 SwitchPreferenceCompat
 ======================
 
+[![Build Status](https://travis-ci.org/yongjhih/SwitchPreferenceCompat.png?branch=master)](https://travis-ci.org/yongjhih/SwitchPreferenceCompat) [![Stories in Ready](https://badge.waffle.io/yongjhih/SwitchPreferenceCompat.png)](http://waffle.io/yongjhih/SwitchPreferenceCompat) 
+[![Bountysource](https://www.bountysource.com/badge/team?team_id=43965&style=bounties_posted)](https://www.bountysource.com/teams/8tory/bounties?utm_source=8tory&utm_medium=shield&utm_campaign=bounties_posted)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.infstory/switch-preference-compat/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.infstory/switch-preference-compat)
+[ ![Download](https://api.bintray.com/packages/yongjhih/maven/com.infstory%3Aswitch-preference-compat/images/download.svg) ](https://bintray.com/yongjhih/maven/com.infstory%3Aswitch-preference-compat/_latestVersion)
+
 Allow easy to use [SwitchCompat](https://developer.android.com/reference/android/support/v7/widget/SwitchCompat.html) as preference.
 
 ![SwitchPreferenceCompat](app/Screenshot.png "SwitchPreferenceCompat")
