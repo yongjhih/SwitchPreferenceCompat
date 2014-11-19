@@ -34,10 +34,6 @@ Installation
 ============
 
 ```
-repositories {
-    jcenter()
-}
-
 dependencies {
     compile 'com.infstory:switch-preference-compat:1.0.+'
 }
