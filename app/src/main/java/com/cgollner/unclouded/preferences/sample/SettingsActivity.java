@@ -40,6 +40,33 @@ public class SettingsActivity extends PreferenceActivity {
      */
     private static final boolean ALWAYS_SIMPLE_PREFS = false;
 
+    //region Fix for Fragment Injection Vulnerability.
+    // See <a href="https://securityintelligence.com/new-vulnerability-android-framework-fragment-injection/#.VdBuVrJVhBc">
+    static final Class<?>[] INNER_CLASSES =
+            SettingsActivity.class.getDeclaredClasses();
+    /**
+     *  Google found a 'security vulnerability' and imposed this hack.
+     *  Have to check this fragment was actually conceived by this activity.
+     */
+    @Override
+    protected boolean isValidFragment(String fragmentName) {
+
+        Boolean knownFrag = false;
+
+        for (Class<?> cls : INNER_CLASSES) {
+
+            if ( cls.getName().equals(fragmentName) ){
+
+                knownFrag = true;
+
+                break;
+            }
+        }
+
+        return knownFrag;
+    }
+
+    //endregion
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
