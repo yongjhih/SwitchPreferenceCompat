@@ -1,4 +1,4 @@
-SwitchPreferenceCompat
+SwitchPreferenceCompat (Deprecated)
 ======================
 
 [![Build Status](https://travis-ci.org/yongjhih/SwitchPreferenceCompat.png?branch=master)](https://travis-ci.org/yongjhih/SwitchPreferenceCompat) [![Stories in Ready](https://badge.waffle.io/yongjhih/SwitchPreferenceCompat.png)](http://waffle.io/yongjhih/SwitchPreferenceCompat) 
@@ -9,6 +9,8 @@ SwitchPreferenceCompat
 Allow easy to use [SwitchCompat](https://developer.android.com/reference/android/support/v7/widget/SwitchCompat.html) as preference.
 
 ![SwitchPreferenceCompat](app/Screenshot.png "SwitchPreferenceCompat")
+
+Use support-v7-preferences instead
 
 Usage
 =====
